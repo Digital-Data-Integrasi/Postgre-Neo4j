@@ -37,5 +37,13 @@ sh postgres-kafka.sh
 ```
 nano kafka-neo4j.sh
 ```
+<img width="936" alt="image" src="https://github.com/Digital-Data-Integrasi/Postgre-Neo4j/assets/143582498/4b31858c-ba9a-4793-a4de-71efc406fab0">
 
+# Jalankan connector kafka-neo4j.sh
 ```
+sh kafka-neo4j.sh
+```
+<img width="934" alt="image" src="https://github.com/Digital-Data-Integrasi/Postgre-Neo4j/assets/143582498/364bbf15-cb9c-49a2-8b84-35fb1a5fd5aa">
+
+# Cek data di Neo4j
+<img width="1117" alt="image" src="https://github.com/Digital-Data-Integrasi/Postgre-Neo4j/assets/143582498/1647b516-1242-4e23-a941-42f8a1eb07a8">
