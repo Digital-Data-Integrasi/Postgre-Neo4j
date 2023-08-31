@@ -21,7 +21,7 @@ psql
 
 jika ada table family dan person, lanjut langkah selanjutnya
 
-# Buat connector postgres-kafka.sh (Script ada postgres-kafka.sh)
+# Buat connector postgres-kafka.sh (Script ada di postgres-kafka.sh)
 ```
 nano postgres-kafka.sh
 ```
@@ -32,3 +32,10 @@ nano postgres-kafka.sh
 sh postgres-kafka.sh
 ```
 <img width="935" alt="image" src="https://github.com/Digital-Data-Integrasi/Postgre-Neo4j/assets/143582498/b70b698b-73ad-4f78-b222-b6e4cbc22a28">
+
+# Buat connector kafka-neo4j.sh (Script ada di kafka-neo4j.sh)
+```
+nano kafka-neo4j.sh
+```
+
+```
