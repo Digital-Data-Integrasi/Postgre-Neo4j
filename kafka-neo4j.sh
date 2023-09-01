@@ -18,6 +18,6 @@ curl -H 'Content-Type: application/json' 192.168.18.191:8083/connectors --data '
         "neo4j.database": "gusti",
         "neo4j.encryption.enabled": "false",
         "value.converter.schemas.enable":"false",
-        "neo4j.topic.cypher.postgres.public.person": "MERGE (p:Person{name: event.name, surname: event.surname}) MERGE (f:Family{name: event.surname}) MERGE (p)-[:BELONGS_TO]->(f)"
+        "neo4j.topic.cypher.postgres.public.person": "MERGE (p:Person{name: event.after.name, surname: event.after.surname}) MERGE (f:Family{name: event.after.surname}) MERGE (p)-[:BELONGS_TO]->(f)"
   }
 }'
